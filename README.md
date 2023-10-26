@@ -35,3 +35,24 @@ $ npm run dev
 예시 2) about URL, profile URL
 - localhost:5173/profile
 
+## Nested Routes
+blog 페이지 및 blog post 상세 페이지
+
+- 블로그 리스트: `/blog`
+- 첫번째 블로그 글: `/blog/first`
+- 두번째 블로그 글: `/blog/second`
+
+## Dynamic Routes
+제품 페이지 (네이버 쇼핑?)
+
+- 제품 리스트 페이지: `/products`
+- 제품 상세페이지: `/products/id`
+- 제품 1의 상세페이지: `/products/1`
+
+- 참고: [app-stores](https://kit.svelte.dev/docs/modules#$app-stores)
+
+## Nested Dynamic Routes
+다이나믹 라우팅이 중첩으로 필요할 떄
+
+- 제품 리스트 페이지: `/products`
+- 제품 리뷰 페이지: `products/1/reviews/1`
