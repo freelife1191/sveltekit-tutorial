@@ -97,3 +97,7 @@ https://kit.svelte.dev/docs/advanced-routing#advanced-layouts-layout
 
 Page Layout
 
+## Layout Group
+https://kit.svelte.dev/docs/advanced-routing#advanced-layouts-when-to-use-layout-groups
+
+소괄호`()`는 Route에 영향을 미치지 않고 Layout의 계층 구조를 바꿀 수 있다
