@@ -91,3 +91,9 @@ https://kit.svelte.dev/docs/advanced-routing#optional-parameters
 https://kit.svelte.dev/docs/advanced-routing#matching
 
 라우트 규칙을 정규식으로 정의하여 지정된 타입만 허용
+
+## Route Layout
+https://kit.svelte.dev/docs/advanced-routing#advanced-layouts-layout
+
+Page Layout
+
