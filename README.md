@@ -101,3 +101,8 @@ Page Layout
 https://kit.svelte.dev/docs/advanced-routing#advanced-layouts-when-to-use-layout-groups
 
 소괄호`()`는 Route에 영향을 미치지 않고 Layout의 계층 구조를 바꿀 수 있다
+
+## API 서버 만들기
+- 스벨트킷에서 API Endpoint를 구현하는 방법
+
+![[attachments/part1/Pasted image 20231028224029.png]]
