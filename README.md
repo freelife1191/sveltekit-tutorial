@@ -74,3 +74,15 @@ ex) 10개의 주제, 5개의 소항목을 가진 페이지
 https://kit.svelte.dev/docs/advanced-routing#optional-parameters
 
 옵셔널한 Path라 있어도되고 없어도됨
+
+## Route Navigation
+라우트 네비게이터 실습
+
+스크립트에서 지정한 값을 백틱으로 감싸서 가져올 수 있음
+```html
+<script>
+    export let productId = 100;
+</script>
+
+<a href={`/products/${productId}`}><li>제품 {productId}</li></a>
+```
