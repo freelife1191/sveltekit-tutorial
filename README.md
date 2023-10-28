@@ -69,3 +69,8 @@ ex) 10개의 주제, 5개의 소항목을 가진 페이지
 	- 10 items x 5 Content = 50개
 - 다이나믹 라우팅 적용 시
 	- 1 `[itemId]` x 1 `[contentId]`
+
+## Optional Parameters
+https://kit.svelte.dev/docs/advanced-routing#optional-parameters
+
+옵셔널한 Path라 있어도되고 없어도됨
