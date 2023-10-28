@@ -78,7 +78,7 @@ https://kit.svelte.dev/docs/advanced-routing#optional-parameters
 ## Route Navigation
 라우트 네비게이터 실습
 
-스크립트에서 지정한 값을 백틱으로 감싸서 가져올 수 있음
+스크립트에서 지정한 값을 백틱(\`)으로 감싸서 가져올 수 있음
 ```html
 <script>
     export let productId = 100;
@@ -86,3 +86,8 @@ https://kit.svelte.dev/docs/advanced-routing#optional-parameters
 
 <a href={`/products/${productId}`}><li>제품 {productId}</li></a>
 ```
+
+## Route Matching
+https://kit.svelte.dev/docs/advanced-routing#matching
+
+라우트 규칙을 정규식으로 정의하여 지정된 타입만 허용
