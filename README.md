@@ -56,3 +56,16 @@ blog 페이지 및 blog post 상세 페이지
 
 - 제품 리스트 페이지: `/products`
 - 제품 리뷰 페이지: `products/1/reviews/1`
+
+## Catch All Routes
+- 다이나믹 라우팅을 구현하는 다른 방법
+- 언제 쓸모 있나?: docs 페이지 (mdn, w3schools, sveltekit API 사이트)
+- 왜 쓸모있나?: docs 페이지 layout은 다 똑같이 생겼음 (주제에 따라 url만 다름)
+
+- 도큐먼트 페이지: `/docs/item1/content1`
+
+ex) 10개의 주제, 5개의 소항목을 가진 페이지
+- 만약 다이나믹 라우팅이 없다면?
+	- 10 items x 5 Content = 50개
+- 다이나믹 라우팅 적용 시
+	- 1 `[itemId]` x 1 `[contentId]`
