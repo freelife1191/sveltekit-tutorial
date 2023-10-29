@@ -111,6 +111,27 @@ https://kit.svelte.dev/docs/advanced-routing#advanced-layouts-when-to-use-layout
 - VS Code Thunder Client 설치 REST API 테스트
 - GET API 작성 및 테스트
 
+GET 요청
+```JSON
+GET http://localhost:5173/api/comments
+
+// result
+[
+  {
+    "id": 1,
+    "text": "첫번째 댓글임"
+  },
+  {
+    "id": 2,
+    "text": "두번째 댓글임"
+  },
+  {
+    "id": 3,
+    "text": "세번째 댓글임"
+  }
+]
+```
+
 ## 16. API Post 요청 핸들러
 - https://ko.javascript.info/
 - 구조분해할당: https://ko.javascript.info/destructuring-assignment
@@ -131,3 +152,16 @@ POST http://localhost:5173/api/comments
 }
 ```
 
+## 17. API Dynamic Route
+`http://localhost:5173/api/comments/:commentId`
+
+GET 요청
+```JSON
+GET http://localhost:5173/api/comments/4
+
+// result
+{
+  "id": 4,
+  "text": "더 글로리 재밌네요~"
+}
+```
