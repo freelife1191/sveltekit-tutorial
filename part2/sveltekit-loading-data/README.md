@@ -26,3 +26,8 @@ $ npm run serve-json
 	- SvelteKit에서 제공하는 `fetch` 함수 사용
 
 JSON API Server 에서 데이터를 가져와서 출력
+
+
+## 22. Universal Load Function
+- 링크를 타고 들어가면 클라이언트 쪽에서만 실행됨
+- URL로 들어가거나 새로고침시에는 클라이언트, 서버 둘다 실행됨
