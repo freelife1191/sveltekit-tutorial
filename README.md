@@ -165,3 +165,32 @@ GET http://localhost:5173/api/comments/4
   "text": "더 글로리 재밌네요~"
 }
 ```
+
+## 18. API Patch 요청 핸들러
+
+PATCH 요청
+```JSON
+PATCH http://localhost:5173/api/comments/4
+{
+  "text": "더 글로리 생각보다 별로네요~"
+}
+
+// result
+{
+  "id": 4,
+  "text": "더 글로리 생각보다 별로네요~"
+}
+```
+
+## 19. API Delete 요청 핸들러
+
+DELETE 요청
+```JSON
+DELETE http://localhost:5173/api/comments/4
+
+// result
+{
+  "id": 4,
+  "text": "더 글로리 생각보다 별로네요~"
+}
+```
