@@ -31,3 +31,18 @@ JSON API Server 에서 데이터를 가져와서 출력
 ## 22. Universal Load Function
 - 링크를 타고 들어가면 클라이언트 쪽에서만 실행됨
 - URL로 들어가거나 새로고침시에는 클라이언트, 서버 둘다 실행됨
+
+
+## 23. Server Load Function
+Load function 비교 (Universal vs Server)
+
+- Universal load function: **Client**, **Server** 양쪽에서 모두 실행됨
+- Server load function: **Server** 에서만 실행됨
+- 데이터를 불러오는 작동 방식은 똑같음
+- 그러나 아예 똑같진 않고 **universal**이 더 많은 종류의 데이터를 return 할 수 있음
+
+![[attachments/Pasted image 20231029163640.png]]
+
+### Server Load 함수는 언제 활용?
+
+![[attachments/Pasted image 20231029163847.png]]
