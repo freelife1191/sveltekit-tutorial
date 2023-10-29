@@ -46,3 +46,39 @@ Load function 비교 (Universal vs Server)
 ### Server Load 함수는 언제 활용?
 
 ![[attachments/Pasted image 20231029163847.png]]
+
+
+## 24. Loading Data Using URL Params
+- https://kit.svelte.dev/docs/load#using-url-data
+
+`serverLoadEvent`에서 `params`, `url`, `route` 데이터 확인
+```JSON
+GET http://localhost:5173/products/2
+
+// result
+{
+  params: { productId: '2' },
+  url: URL {
+    href: 'http://localhost:5173/products/2',
+    origin: 'http://localhost:5173',
+    protocol: 'http:',
+    username: '',
+    password: '',
+    host: 'localhost:5173',
+    hostname: 'localhost',
+    port: '5173',
+    pathname: '/products/2',
+    search: '',
+    searchParams: URLSearchParams {},
+    hash: ''
+  },
+  route: '/products/[productId]'
+}
+```
+
+
+## 25. error & redirect
+- [$app/stores](https://kit.svelte.dev/docs/modules#$app-stores)
+- [Prefix stores with $ to access their values](https://svelte.dev/docs/svelte-components#script-4-prefix-stores-with-$-to-access-their-values)
+
+`$app/stores`에서 `page` 정보를 받아와서 사용가능
