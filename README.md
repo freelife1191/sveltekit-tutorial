@@ -106,3 +106,8 @@ https://kit.svelte.dev/docs/advanced-routing#advanced-layouts-when-to-use-layout
 - 스벨트킷에서 API Endpoint를 구현하는 방법
 
 ![[attachments/part1/Pasted image 20231028224029.png]]
+
+## 15. API Get 요청 핸들러
+- VS Code Thunder Client 설치 REST API 테스트
+- GET API 작성 및 테스트
+
